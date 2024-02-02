@@ -40,9 +40,25 @@ console.log(rakib["pro player"]);
 // 1) . notation
 // 2)[] notation
 rakib['age'] = 30;
-rakib.simple='crush';
+rakib.simple = 'crush';
 // variable declear
-const kaj='working';
-rakib.kaj="playerFull";
+const kaj = 'working';
+rakib.kaj = "playerFull";
 
 console.log(rakib);
+
+
+
+//example sudhu porpary dekhar jonno
+const computer = {
+    cpu: 'intal',
+    rem: 128,
+    price: 50000,
+    brand: 'samsong',
+}
+// proparty dekhar jonno
+const proparty=Object.keys(computer);
+console.log(proparty);
+// value dekhar jonno
+const value=Object.values(computer);
+console.log(computer);
