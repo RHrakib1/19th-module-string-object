@@ -14,7 +14,7 @@ console.log(status1)
 
 
 
-// sentenes a potiti jaiga space soho dhore  dhore vag kore felese er karone "split("")";
+// sentenes a potiti jaiga and  space soho dhore  dhore vag kore felese er karone "split("")";
 console.log("example 3 start");
 const word1 = "i am a diploma student.i am a good boy";
 const status2 = word1.split('');

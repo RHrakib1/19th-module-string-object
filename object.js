@@ -14,6 +14,7 @@ const rakib = {
     simple: 'Boy',
     'pro player': "me"
 }
+
 console.log(rakib.simple);
 // "[]" diye object dekhar niyom
 console.log(rakib['hobby']);
@@ -25,12 +26,8 @@ console.log(educated);
 
 
 
-// dot notation "." diye sob somoy propaarty output dekhano jabe na jemon kono simbol "",-,etc proparty te thakle hbe na tokhn "[]"diye kaj krte hbe
+// dot notation "." diye sob somoy propaarty output dekhano jabe na jemon kono simbol "",  -, etc proparty te thakle hbe na tokhn "[]" diye kaj krte hbe
 console.log(rakib["pro player"]);
-
-
-
-
 
 
 
@@ -49,6 +46,14 @@ console.log(rakib);
 
 
 
+// arry access kora hoi ki vabe 
+console.log("array access kora");
+const tarin=rakib.tools[1];
+console.log(tarin);
+
+
+
+
 //example sudhu porpary dekhar jonno
 const computer = {
     cpu: 'intal',
@@ -57,8 +62,14 @@ const computer = {
     brand: 'samsong',
 }
 // proparty dekhar jonno
-const proparty=Object.keys(computer);
+const proparty = Object.keys(computer);
 console.log(proparty);
 // value dekhar jonno
-const value=Object.values(computer);
+const value = Object.values(computer);
 console.log(computer);
+
+
+// kono proparty add korar jonoo
+console.log("added to the proparty");
+rakib.girlfd ='yes';
+console.log(rakib)

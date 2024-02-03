@@ -10,3 +10,5 @@ const thana=`kurigram`;
 const capital ="gai bandha";
 console.log(capital.length);
 console.log(capital[8]);
+
+
